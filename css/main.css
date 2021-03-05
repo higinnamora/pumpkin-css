@@ -15,6 +15,7 @@ body {
   height: 100vh;
   background-color: var(--main-bg-color);
 }
+/* Pumpkin */
 .pumpkin {
   position: relative;
   height: 300px;
@@ -28,6 +29,7 @@ body {
     40px -15px 0px  0px #f87700,  /*BS 3*/
     80px -35px 0px -2px #f8931f;  /*BS 4*/
 }
+/* Pumpkin stem */
 .stem {
   position: relative;
   bottom: 180px;
@@ -50,6 +52,7 @@ body {
   background-color: var(--main-bg-color);
   clip-path: circle(50% at 50% 50%);
 }
+/* Eye left*/
 .face {
   width: 75px;
   height: 30px;
@@ -62,5 +65,19 @@ body {
   border-radius: 
     100% 0% 50% 50% / 0% 0% 100% 100%;
 }
+/* Eye right */
+.face::after {
+  content: '';
+  position: absolute;
+  background-color: var(--face);
+  top: -25px;
+  left: 120px;
+  width: 75px;
+  height: 30px;
+  transform: rotate(-20deg);
+  border-radius: 
+    100% 0% 50% 50% / 0% 0% 100% 100%;
+}
+
 
 
