@@ -15,3 +15,16 @@ body {
   height: 100vh;
   background-color: var(--main-bg-color);
 }
+.pumpkin {
+  position: relative;
+  height: 300px;
+  width: 170px;
+  background-color: #f8931f;
+  border-radius: 28% 72% 33% 67% / 21% 83% 17% 79% ;
+  transform: rotate(13deg);
+  box-shadow:
+    -80px 5px 0px -2px #f8931f,   /*BS 1*/
+    -40px 4px 0px -1px #fbb03b,   /*BS 2*/
+    40px -15px 0px  0px #f87700,  /*BS 3*/
+    80px -35px 0px -2px #f8931f;  /*BS 4*/
+}
