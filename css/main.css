@@ -32,7 +32,7 @@ body {
   position: relative;
   bottom: 180px;
   background-color: #8cc63e;
-  left: 160px;
+  left: 210px;
   z-index: -1;
   width: 75px;
   height: 150px;
@@ -50,4 +50,17 @@ body {
   background-color: var(--main-bg-color);
   clip-path: circle(50% at 50% 50%);
 }
+.face {
+  width: 75px;
+  height: 30px;
+  background-color: var(--face);
+  position: relative;
+  left: 60px;
+  bottom: 40px;
+  transform: rotate(10deg);
+  z-index: 1;
+  border-radius: 
+    100% 0% 50% 50% / 0% 0% 100% 100%;
+}
+
 
