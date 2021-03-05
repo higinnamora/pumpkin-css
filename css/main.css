@@ -1,5 +1,4 @@
 * {
-  border: 5px solid red;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -43,7 +42,6 @@ body {
 }
 .stem::before {
   content: '';
-  border: 20px solid red;
   position: absolute;
   top: 0px;
   left: 50px;
