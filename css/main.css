@@ -28,3 +28,26 @@ body {
     40px -15px 0px  0px #f87700,  /*BS 3*/
     80px -35px 0px -2px #f8931f;  /*BS 4*/
 }
+.stem {
+  position: relative;
+  bottom: 180px;
+  background-color: #8cc63e;
+  left: 160px;
+  z-index: -1;
+  width: 75px;
+  height: 150px;
+  transform: rotate(30deg);
+  border-radius: 58% 42% 69% 31% / 44% 100% 0% 56% ;
+}
+.stem::before {
+  content: '';
+  border: 20px solid red;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--main-bg-color);
+  clip-path: circle(50% at 50% 50%);
+}
+
